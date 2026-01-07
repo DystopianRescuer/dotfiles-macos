@@ -84,7 +84,6 @@ automatically-unhide-macos-hidden-apps = true
     alt-7 = 'workspace 7'
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
-    alt-a = 'workspace A'
 
     alt-shift-1 = 'move-node-to-workspace 1'
     alt-shift-2 = 'move-node-to-workspace 2'
@@ -95,11 +94,6 @@ automatically-unhide-macos-hidden-apps = true
     alt-shift-7 = 'move-node-to-workspace 7'
     alt-shift-8 = 'move-node-to-workspace 8'
     alt-shift-9 = 'move-node-to-workspace 9'
-    alt-shift-a = 'move-node-to-workspace A'
-    alt-shift-b = 'move-node-to-workspace B'
-    alt-shift-c = 'move-node-to-workspace C'
-    alt-shift-d = 'move-node-to-workspace D'
-    alt-shift-e = 'move-node-to-workspace E'
 
     alt-tab = 'workspace-back-and-forth'
     alt-q = 'close'
@@ -107,3 +101,4 @@ automatically-unhide-macos-hidden-apps = true
     # Open apps
     alt-b = 'exec-and-forget /Applications/"Microsoft Edge.app"/Contents/MacOS/"Microsoft Edge"'
     alt-t = 'exec-and-forget kitty /Users/dystopianrescuer'
+    alt-c = 'exec-and-forget /System/Applications/Siri.app/Contents/MacOS/Siri'
