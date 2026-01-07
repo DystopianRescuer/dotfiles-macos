@@ -59,7 +59,6 @@ automatically-unhide-macos-hidden-apps = true
     # end tell'
     # '''
 
-    # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     alt-slash = 'layout tiles horizontal vertical'
     alt-comma = 'layout accordion horizontal vertical'
 
@@ -76,7 +75,6 @@ automatically-unhide-macos-hidden-apps = true
     alt-minus = 'resize smart -50'
     alt-equal = 'resize smart +50'
 
-    # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
     alt-1 = 'workspace 1'
     alt-2 = 'workspace 2'
     alt-3 = 'workspace 3'
@@ -87,12 +85,7 @@ automatically-unhide-macos-hidden-apps = true
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
     alt-a = 'workspace A'
-    alt-b = 'workspace B'
-    alt-c = 'workspace C'
-    alt-d = 'workspace D'
-    alt-e = 'workspace E'
 
-    # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
     alt-shift-1 = 'move-node-to-workspace 1'
     alt-shift-2 = 'move-node-to-workspace 2'
     alt-shift-3 = 'move-node-to-workspace 3'
@@ -109,3 +102,8 @@ automatically-unhide-macos-hidden-apps = true
     alt-shift-e = 'move-node-to-workspace E'
 
     alt-tab = 'workspace-back-and-forth'
+    alt-q = 'close'
+
+    # Open apps
+    alt-b = 'exec-and-forget /Applications/"Microsoft Edge.app"/Contents/MacOS/"Microsoft Edge"'
+    alt-t = 'exec-and-forget kitty /Users/dystopianrescuer'
