@@ -97,6 +97,7 @@ automatically-unhide-macos-hidden-apps = true
 
     alt-tab = 'workspace-back-and-forth'
     alt-q = 'close'
+    alt-enter = 'fullscreen'
 
     # Open apps
     alt-b = 'exec-and-forget /Applications/"Microsoft Edge.app"/Contents/MacOS/"Microsoft Edge"'
