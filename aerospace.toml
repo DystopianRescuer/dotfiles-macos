@@ -98,9 +98,12 @@ automatically-unhide-macos-hidden-apps = true
     alt-tab = 'workspace-back-and-forth'
     alt-q = 'close'
     alt-enter = 'fullscreen'
-    cmd-esc = 'exec-and-forget pmset displaysleepnow'
 
     # Open apps
-    alt-b = 'exec-and-forget /Applications/"Microsoft Edge.app"/Contents/MacOS/"Microsoft Edge"'
+    alt-b = 'exec-and-forget open /Applications/"Microsoft Edge.app"'
     alt-t = 'exec-and-forget kitty /Users/dystopianrescuer'
-    alt-c = 'exec-and-forget /System/Applications/Siri.app/Contents/MacOS/Siri'
+    alt-c = 'exec-and-forget open /System/Applications/Siri.app'
+
+    # Another bindings
+    cmd-esc = 'exec-and-forget pmset displaysleepnow'
+    alt-s = 'exec-and-forget screencapture -ic'
