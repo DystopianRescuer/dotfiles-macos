@@ -100,9 +100,10 @@ automatically-unhide-macos-hidden-apps = true
     alt-enter = 'fullscreen'
 
     # Open apps
-    alt-b = 'exec-and-forget open /Applications/"Microsoft Edge.app"'
+    alt-b = 'exec-and-forget /Applications/"Microsoft Edge.app"/Contents/MacOS/"Microsoft Edge"'
     alt-t = 'exec-and-forget kitty /Users/dystopianrescuer'
     alt-c = 'exec-and-forget open /System/Applications/Siri.app'
+    alt-f = 'exec-and-forget open /Users/dystopianrescuer'
 
     # Another bindings
     cmd-esc = 'exec-and-forget pmset displaysleepnow'
