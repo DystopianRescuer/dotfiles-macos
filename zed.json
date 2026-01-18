@@ -1,6 +1,7 @@
 // Zed settings
 
 {
+  "disable_ai": true,
   "telemetry": {
     "metrics": false,
     "diagnostics": false
