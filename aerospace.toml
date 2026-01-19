@@ -106,5 +106,7 @@ automatically-unhide-macos-hidden-apps = true
     alt-f = 'exec-and-forget open /Users/dystopianrescuer'
 
     # Another bindings
-    cmd-esc = 'exec-and-forget pmset displaysleepnow'
+    #cmd-esc = 'exec-and-forget pmset displaysleepnow'
+    #cmd-esc = 'exec-and-forget open -a ScreenSaverEngine'
+    cmd-esc = "exec-and-forget osascript -e 'tell application \"System Events\" to keystroke \"q\" using {control down, command down}'"
     alt-s = 'exec-and-forget screencapture -ic'
